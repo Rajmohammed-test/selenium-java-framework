@@ -1,0 +1,39 @@
+# ===================== Maven build output =====================
+target/
+
+# ===================== Generated test artifacts =====================
+# The folders themselves are tracked (via .gitkeep); their generated
+# contents are not - every test run recreates them.
+reports/*
+!reports/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# ===================== IDE files =====================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# ===================== OS files =====================
+.DS_Store
+Thumbs.db
+
+# ===================== Driver binaries (if ever manually placed) =====================
+# WebDriverManager downloads these to a user-level cache, not the repo - this
+# just guards against someone accidentally committing one locally.
+*.exe
+chromedriver
+geckodriver
+msedgedriver
+
+# ===================== Env/secrets =====================
+# Uncomment if you ever add a config file carrying real credentials/URLs that
+# shouldn't be public - keep prod config out of source control in that case.
+# src/main/resources/config-prod.properties
