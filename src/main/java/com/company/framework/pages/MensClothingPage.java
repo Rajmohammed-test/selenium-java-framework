@@ -8,12 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 public class MensClothingPage extends BasePage {
 
     @FindBy(xpath = "//h2[contains(text(), 'Men')]")
-    private WebElement menbutton;
+    private WebElement mensbutton;
 
     public MensClothingPage() { PageFactory.initElements(driver(), this);}
     public boolean isMensClothigDisplayed() {
-        return isDisplayed(menbutton);
+        return isDisplayed(mensbutton);
     }
-
 
 }

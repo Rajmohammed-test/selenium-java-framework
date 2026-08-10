@@ -1,4 +1,4 @@
-package com.company.tests;
+package com.company.tests.cart;
 
 import com.company.framework.base.BaseTest;
 import com.company.framework.pages.HomePage;
@@ -14,11 +14,9 @@ public class NavigationTest extends BaseTest {
         HomePage homepage = new HomePage();
         homepage.clickAll();
         homepage.clickMen();
-        MensClothingPage mensClothingPage=homepage.clickShirt();
+        MensClothingPage mensClothingPage = homepage.clickShirt();
 
         Assert.assertTrue(mensClothingPage.isMensClothigDisplayed());
-        //Assert.assertEquals(mensClothingPage.isMensClothigDisplayed(), "Men's Clothing - Buy Men's Wear Online at Best Prices on Amazon.in");
-
-
     }
+
 }

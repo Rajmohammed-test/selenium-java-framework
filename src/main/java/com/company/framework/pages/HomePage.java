@@ -26,11 +26,7 @@ public class HomePage extends BasePage {
         PageFactory.initElements(driver(), this);
     }
 
-    public void click1(){
-        WebElement ele= driver().findElement(By.xpath("//span[@class='hm-icon-label' and text()='All']"));
-        WaitUtils.waitForElementClickable(ele);
-        ele.click();
-    }
+
 
     public void clickAll(){
         click(all);
