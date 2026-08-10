@@ -1,6 +1,7 @@
 package com.company.searchModule;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -39,6 +40,37 @@ public class SearchPageTest {
 		System.out.println(ExpectedphoneText);
 		
 		Assert.assertEquals(actualText, ExpectedphoneText);
+		
+	}
+	
+	@Test
+	public void searchWithSpecialCharacters() {
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("https://www.amazon.in/");
+		
+		SearchPage sp=new SearchPage(driver);
+		
+		sp.getSearchTextFeild().sendKeys("kurthi@123");
+		
+		sp.getSearchButton().click();
+		
+		 List<WebElement> productNames = driver.findElements(By.xpath("//span[contains(text(),'Kurta')]"));
+		
+		for (WebElement prod : productNames) {
+			
+			String str=prod.getText();
+			
+			System.out.println(str);
+		}
+		
+		sp.getSearchTextFeild().clear();
+		
 		
 	}
 	

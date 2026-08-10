@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-10T16:05:38 IST" name="Default suite" finished-at="2026-08-10T16:05:55 IST" duration-ms="17426">
+    <groups>
+    </groups>
+    <test started-at="2026-08-10T16:05:38 IST" name="Default test" finished-at="2026-08-10T16:05:55 IST" duration-ms="17426">
+      <class name="com.company.searchModule.SearchPageTest">
+        <test-method signature="searchWithSpecialCharacters()[pri:0, instance:com.company.searchModule.SearchPageTest@3d6300e8]" started-at="2026-08-10T16:05:38 IST" name="searchWithSpecialCharacters" finished-at="2026-08-10T16:05:55 IST" duration-ms="17375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithSpecialCharacters -->
+      </class> <!-- com.company.searchModule.SearchPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
