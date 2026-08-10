@@ -15,6 +15,9 @@ public class CategoryPage extends BasePage {
 	@FindBy(xpath = "//a[text()='Bestsellers' and @class='nav-a  ']")
 	private WebElement bestSellersLink;
 
+	@FindBy(xpath = "//a[text()='Mobiles' and @class='nav-a  ']")
+	private WebElement mobilesLink;
+
 	@FindBy(xpath = "//h1[text()='Amazon Bestsellers']")
 	private WebElement amazonBestsellersText;
 
@@ -44,6 +47,12 @@ public class CategoryPage extends BasePage {
 
 	@FindBy(xpath = "//h1[contains(text(),'Sign in')]")
 	private WebElement signInText;
+
+	@FindBy(xpath = "//span[text()='Smartwatches']/..")
+	private WebElement smartWatchesLink;
+
+	@FindBy(xpath = "//b[text()='Mobile Smart Watch']")
+	private WebElement smartWatchesText;
 
 	public void clickOnBestSellersLink() {
 
@@ -117,6 +126,25 @@ public class CategoryPage extends BasePage {
 	public boolean isSignInDisplayed() {
 
 		return isDisplayed(signInText);
+
+	}
+
+	public void clickOnMobilesLink() {
+
+		click(mobilesLink);
+
+	}
+
+	public boolean isSmartWatchesLinkDisplayed() {
+
+		return isDisplayed(smartWatchesLink);
+
+	}
+
+	public boolean clickAndVerfiySmartWatchesNavigation() {
+
+		click(smartWatchesLink);
+		return isDisplayed(smartWatchesText);
 
 	}
 }

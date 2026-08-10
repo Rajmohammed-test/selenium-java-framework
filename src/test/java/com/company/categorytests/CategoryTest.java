@@ -48,4 +48,14 @@ public class CategoryTest extends BaseTest {
 
 	}
 
+	@Test(description = "CA005_Verify the user can navigate to smart watch page from mobile category", groups = "Smoke")
+	public void verifySmartWatchPageFromMobileCategory() {
+
+		CategoryPage categoryPage = new CategoryPage();
+		categoryPage.clickOnMobilesLink();
+		Assert.assertTrue(categoryPage.isSmartWatchesLinkDisplayed(), "Smartwatches link should be displayed.");
+		Assert.assertTrue(categoryPage.clickAndVerfiySmartWatchesNavigation(),
+				"Smartwatches text should be displayed.");
+
+	}
 }
