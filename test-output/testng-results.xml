@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-10T15:55:25 IST" name="Default suite" finished-at="2026-08-10T15:56:07 IST" duration-ms="42433">
+    <groups>
+      <group name="Smoke">
+        <method signature="CategoryTest.verifyPrimeVideoSignInPage()[pri:0, instance:com.company.categorytests.CategoryTest@54ec8cc9]" name="verifyPrimeVideoSignInPage" class="com.company.categorytests.CategoryTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-08-10T15:55:25 IST" name="Default test" finished-at="2026-08-10T15:56:07 IST" duration-ms="42433">
+      <class name="com.company.categorytests.CategoryTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.company.categorytests.CategoryTest@54ec8cc9]" started-at="2026-08-10T15:55:25 IST" name="beforeSuite" finished-at="2026-08-10T15:55:25 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.company.categorytests.CategoryTest@54ec8cc9]" started-at="2026-08-10T15:55:25 IST" name="setUp" finished-at="2026-08-10T15:55:29 IST" duration-ms="4359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.company.categorytests.CategoryTest.verifyPrimeVideoSignInPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPrimeVideoSignInPage()[pri:0, instance:com.company.categorytests.CategoryTest@54ec8cc9]" started-at="2026-08-10T15:55:29 IST" name="verifyPrimeVideoSignInPage" description="CA004_Verify the user can navigate to sign in page from prime video category navigation" finished-at="2026-08-10T15:56:07 IST" duration-ms="37392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrimeVideoSignInPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.company.categorytests.CategoryTest@54ec8cc9]" started-at="2026-08-10T15:56:07 IST" name="tearDown" finished-at="2026-08-10T15:56:07 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.company.categorytests.CategoryTest@54ec8cc9]" started-at="2026-08-10T15:56:07 IST" name="afterSuite" finished-at="2026-08-10T15:56:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.company.categorytests.CategoryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

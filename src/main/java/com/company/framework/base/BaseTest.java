@@ -78,16 +78,16 @@ public abstract class BaseTest {
      * failure leaks a browser process, and a long regression run on a CI
      * agent eventually exhausts memory/handles.
      */
-//    @AfterMethod(alwaysRun = true)
-//    public void tearDown() {
-//        DriverFactory.quitDriver();
-//        log.info("---- Finished test on thread [{}], WebDriver session closed ----", Thread.currentThread().getId());
-//    }
-//
-//    @AfterSuite(alwaysRun = true)
-//    public void afterSuite() {
-//        log.info("=========================================================");
-//        log.info(" TEST SUITE EXECUTION FINISHED");
-//        log.info("=========================================================");
-//    }
+    @AfterMethod(alwaysRun = true)
+    public void tearDown() {
+        DriverFactory.quitDriver();
+        log.info("---- Finished test on thread [{}], WebDriver session closed ----", Thread.currentThread().getId());
+    }
+
+    @AfterSuite(alwaysRun = true)
+    public void afterSuite() {
+        log.info("=========================================================");
+        log.info(" TEST SUITE EXECUTION FINISHED");
+        log.info("=========================================================");
+    }
 }

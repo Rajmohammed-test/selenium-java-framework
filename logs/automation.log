@@ -243,3 +243,379 @@ Command: [a9de0cbdb0bbd1554fef5ec2e5407b70, clickElement {id=f.54C903F2CF23666B4
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58728}, goog:processID: 6012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58728/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Element: [[ChromeDriver: chrome on windows (a9de0cbdb0bbd1554fef5ec2e5407b70)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]
 Session ID: a9de0cbdb0bbd1554fef5ec2e5407b70
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 14:51:37 INFO  Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse-1440834448\testng-customsuite.xml
+
+2026-08-10 14:51:37 INFO  BaseTest - =========================================================
+2026-08-10 14:51:37 INFO  PropertyUtils - Loaded base configuration from [D:\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 14:51:37 INFO  PropertyUtils - Applied environment overrides for [qa] from [D:\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 14:51:37 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 14:51:37 INFO  BaseTest - =========================================================
+2026-08-10 14:51:37 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2026-08-10 14:51:37 INFO  BaseTest - ---- Starting test [verifyNavigationToBestSellersPage] on thread [1] ----
+2026-08-10 14:51:37 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 14:52:00 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 14:52:00 INFO  Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.77/win64/chromedriver-win64.zip
+2026-08-10 14:52:03 INFO  Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-08-10 14:52:03 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 14:52:05 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 14:52:05 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 14:52:09 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2eda072: 62 ms
+2026-08-10 14:52:09 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@3fa21d49: 0 ms
+2026-08-10 14:52:09 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@2d0b05: 13 ms
+2026-08-10 14:52:09 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@39c85c1a: 15 ms
+2026-08-10 14:52:09 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4570d7b6: 19 ms
+2026-08-10 14:52:09 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@72b6832e: 0 ms
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 27 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 17 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:35:30 INFO  Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse--1211962428\testng-customsuite.xml
+
+2026-08-10 15:35:30 INFO  BaseTest - =========================================================
+2026-08-10 15:35:30 INFO  PropertyUtils - Loaded base configuration from [D:\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 15:35:30 INFO  PropertyUtils - Applied environment overrides for [qa] from [D:\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 15:35:30 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 15:35:30 INFO  BaseTest - =========================================================
+2026-08-10 15:35:30 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2026-08-10 15:35:30 INFO  BaseTest - ---- Starting test [verifyAddToCartFromCategory] on thread [1] ----
+2026-08-10 15:35:30 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 15:35:31 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 15:35:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 15:35:34 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 15:35:34 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 15:36:19 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 15:36:19 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 15:36:19 INFO  BaseTest - =========================================================
+2026-08-10 15:36:19 INFO  BaseTest -  TEST SUITE EXECUTION FINISHED
+2026-08-10 15:36:19 INFO  BaseTest - =========================================================
+2026-08-10 15:36:19 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6419a0e1: 134 ms
+2026-08-10 15:36:19 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@280d4882: 1 ms
+2026-08-10 15:36:19 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1e3e1014: 20 ms
+2026-08-10 15:36:19 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1b5a1d85: 18 ms
+2026-08-10 15:36:19 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2513a118: 13 ms
+2026-08-10 15:36:19 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2bfb583b: 0 ms
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 24 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 19 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:39:32 INFO  Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse--1728343069\testng-customsuite.xml
+
+2026-08-10 15:39:32 INFO  BaseTest - =========================================================
+2026-08-10 15:39:33 INFO  PropertyUtils - Loaded base configuration from [D:\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 15:39:33 INFO  PropertyUtils - Applied environment overrides for [qa] from [D:\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 15:39:33 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 15:39:33 INFO  BaseTest - =========================================================
+2026-08-10 15:39:33 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2026-08-10 15:39:33 INFO  BaseTest - ---- Starting test [verifyAddToCartFromCategory] on thread [1] ----
+2026-08-10 15:39:33 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 15:39:34 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 15:39:34 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 15:39:36 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 15:39:36 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 15:40:07 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 15:40:07 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 15:40:07 INFO  BaseTest - =========================================================
+2026-08-10 15:40:07 INFO  BaseTest -  TEST SUITE EXECUTION FINISHED
+2026-08-10 15:40:07 INFO  BaseTest - =========================================================
+2026-08-10 15:40:08 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@600f5704: 143 ms
+2026-08-10 15:40:08 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@65d8dff8: 72 ms
+2026-08-10 15:40:08 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1b7332a7: 27 ms
+2026-08-10 15:40:08 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7b66322e: 32 ms
+2026-08-10 15:40:08 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@767f6ee7: 39 ms
+2026-08-10 15:40:08 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7b6c6e70: 0 ms
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 9 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 21 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 15 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:40:32 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-08-10 15:40:32 INFO  Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse--1399690887\testng-customsuite.xml
+
+2026-08-10 15:40:32 INFO  BaseTest - =========================================================
+2026-08-10 15:40:32 INFO  PropertyUtils - Loaded base configuration from [D:\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 15:40:32 INFO  PropertyUtils - Applied environment overrides for [qa] from [D:\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 15:40:32 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 15:40:32 INFO  BaseTest - =========================================================
+2026-08-10 15:40:32 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2026-08-10 15:40:32 INFO  BaseTest - ---- Starting test [verifyAddToCartFromCategory] on thread [1] ----
+2026-08-10 15:40:32 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 15:40:33 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 15:40:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 15:40:35 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 15:40:35 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 15:41:24 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 15:41:24 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 15:41:24 INFO  BaseTest - =========================================================
+2026-08-10 15:41:24 INFO  BaseTest -  TEST SUITE EXECUTION FINISHED
+2026-08-10 15:41:24 INFO  BaseTest - =========================================================
+2026-08-10 15:41:24 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6419a0e1: 113 ms
+2026-08-10 15:41:24 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@280d4882: 1 ms
+2026-08-10 15:41:24 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1e3e1014: 20 ms
+2026-08-10 15:41:24 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1b5a1d85: 19 ms
+2026-08-10 15:41:24 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2513a118: 20 ms
+2026-08-10 15:41:24 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2bfb583b: 1 ms
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 10 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 23 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 17 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:44:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:44:42 INFO  Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse-2107278368\testng-customsuite.xml
+
+2026-08-10 15:44:42 INFO  BaseTest - =========================================================
+2026-08-10 15:44:42 INFO  PropertyUtils - Loaded base configuration from [D:\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 15:44:42 INFO  PropertyUtils - Applied environment overrides for [qa] from [D:\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 15:44:42 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 15:44:42 INFO  BaseTest - =========================================================
+2026-08-10 15:44:42 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2026-08-10 15:44:42 INFO  BaseTest - ---- Starting test [verifyAddToCartFromCategory] on thread [1] ----
+2026-08-10 15:44:42 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 15:44:43 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 15:44:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 10 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 20 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 18 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-08-10 15:53:39 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:53:39 INFO  Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse--75639106\testng-customsuite.xml
+
+2026-08-10 15:53:39 INFO  BaseTest - =========================================================
+2026-08-10 15:53:39 INFO  PropertyUtils - Loaded base configuration from [D:\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 15:53:39 INFO  PropertyUtils - Applied environment overrides for [qa] from [D:\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 15:53:39 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 15:53:39 INFO  BaseTest - =========================================================
+2026-08-10 15:53:39 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2026-08-10 15:53:39 INFO  BaseTest - ---- Starting test [verifyPrimeVideoSignInPage] on thread [1] ----
+2026-08-10 15:53:39 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 15:53:42 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 15:53:42 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 15:53:44 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 15:53:44 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 15:54:16 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 15:54:16 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 15:54:16 INFO  BaseTest - =========================================================
+2026-08-10 15:54:16 INFO  BaseTest -  TEST SUITE EXECUTION FINISHED
+2026-08-10 15:54:16 INFO  BaseTest - =========================================================
+2026-08-10 15:54:16 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60c1663c: 126 ms
+2026-08-10 15:54:16 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@d5bb1c4: 25 ms
+2026-08-10 15:54:16 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@2cd4e16a: 22 ms
+2026-08-10 15:54:16 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4d634127: 17 ms
+2026-08-10 15:54:16 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4d0e54e0: 15 ms
+2026-08-10 15:54:16 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@32f96bba: 0 ms
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 9 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 21 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 15 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 15:55:25 INFO  Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse-134554742\testng-customsuite.xml
+
+2026-08-10 15:55:25 INFO  BaseTest - =========================================================
+2026-08-10 15:55:25 INFO  PropertyUtils - Loaded base configuration from [D:\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 15:55:25 INFO  PropertyUtils - Applied environment overrides for [qa] from [D:\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 15:55:25 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 15:55:25 INFO  BaseTest - =========================================================
+2026-08-10 15:55:25 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2026-08-10 15:55:25 INFO  BaseTest - ---- Starting test [verifyPrimeVideoSignInPage] on thread [1] ----
+2026-08-10 15:55:25 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 15:55:26 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 15:55:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 15:55:29 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 15:55:29 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 15:56:07 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 15:56:07 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 15:56:07 INFO  BaseTest - =========================================================
+2026-08-10 15:56:07 INFO  BaseTest -  TEST SUITE EXECUTION FINISHED
+2026-08-10 15:56:07 INFO  BaseTest - =========================================================
+2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@e76b097: 162 ms
+2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2be95d31: 1 ms
+2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@52b06bef: 46 ms
+2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@31e2232f: 14 ms
+2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2f9a4401: 17 ms
+2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@22c75c01: 0 ms

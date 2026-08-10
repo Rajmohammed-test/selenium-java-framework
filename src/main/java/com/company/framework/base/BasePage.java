@@ -189,4 +189,5 @@ public abstract class BasePage {
             return "stale-element";
         }
     }
+    
 }
