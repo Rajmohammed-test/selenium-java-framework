@@ -69,11 +69,7 @@ public class SearchPageTest {
 			System.out.println(str);
 		}
 		
-		sp.getSearchTextFeild().clear();
-		
-		
+		sp.getSearchTextFeild().clear();	
 	}
 	
-	
-
 }
