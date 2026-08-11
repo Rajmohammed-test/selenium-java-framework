@@ -5,7 +5,7 @@
     <classes>
       <class name="com.company.searchModule.SearchPageTest">
         <methods>
-          <include name="searchWithExistingProducts"/>
+          <include name="verifyRecentSearchFunctionality"/>
         </methods>
       </class> <!-- com.company.searchModule.SearchPageTest -->
     </classes>

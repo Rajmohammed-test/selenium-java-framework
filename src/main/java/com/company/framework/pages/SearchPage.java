@@ -1,43 +1,60 @@
 package com.company.framework.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SearchPage 
-{
-	@FindBy (xpath ="//select[@id='searchDropdownBox']")
-	private WebElement searchFeildDropDown;
-	
-	@FindBy (xpath="//input[@id='twotabsearchtextbox']")
-	private WebElement searchTextFeild;
-	
-	@FindBy (xpath="//input[@id='nav-search-submit-button']")
+public class SearchPage {
+
+	public WebDriver driver;
+
+	@FindBy(xpath = "//input[@id='twotabsearchtextbox']")
+	private WebElement searchTextField;
+
+	@FindBy(xpath = "//input[@id='nav-search-submit-button']")
 	private WebElement searchButton;
 	
-	@FindBy (xpath ="//div[@aria-label='oneplus nord ce 6 lite case']")
-	private WebElement autoSuggestion;
-	
+	 @FindBy(xpath = "//div[contains(@class,'s-suggestion')]")
+	 private List<WebElement> searchSuggestions;
+	 
+	 @FindBy(xpath = "//div[@data-component-type='s-search-result']")
+	    private WebElement searchResults;
+	 
+	 @FindBy(xpath = "//div[@id='nav-flyout-searchAjax']//div[contains(@class,'s-suggestion')]")
+	 private List<WebElement> recentSearches;
+	 
+	 public int getSuggestionCount() {
+	        return searchSuggestions.size();
+	    }
+
 	public SearchPage(WebDriver driver) {
-		
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	public WebElement getSearchFeildDropDown() {
-		return searchFeildDropDown;
+	public void enterSearchText(String searchText) {
+		searchTextField.clear();
+		searchTextField.sendKeys(searchText);
 	}
 
-	public void setSearchFeildDropDown(WebElement searchFeildDropDown) {
-		this.searchFeildDropDown = searchFeildDropDown;
+	public void clickSearchButton() {
+		searchButton.click();
 	}
 
-	public WebElement getSearchTextFeild() {
-		return searchTextFeild;
+	public void searchProduct(String searchText) {
+		enterSearchText(searchText);
+		clickSearchButton();
 	}
 
-	public void setSearchTextFeild(WebElement searchTextFeild) {
-		this.searchTextFeild = searchTextFeild;
+	public WebElement getSearchTextField() {
+		return searchTextField;
+	}
+
+	public void setSearchTextField(WebElement searchTextField) {
+		this.searchTextField = searchTextField;
 	}
 
 	public WebElement getSearchButton() {
@@ -48,17 +65,36 @@ public class SearchPage
 		this.searchButton = searchButton;
 	}
 
-	public WebElement getAutoSuggestion() {
-		return autoSuggestion;
-	}
-
-	public void setAutoSuggestion(WebElement autoSuggestion) {
-		this.autoSuggestion = autoSuggestion;
+	public boolean isSearchPageDisplayed() {
+		return driver.getTitle().toLowerCase().contains("amazon");
 	}
 	
-	
-	
-	
-	
+	 public boolean areSuggestionsDisplayed() {
+	        return !searchSuggestions.isEmpty();
+	    }
+	 public String getSuggestionText(int index) {
+	        return searchSuggestions.get(index).getText();
+	    }
+	 public boolean isSearchResultsDisplayed() {
+	        return searchResults.isDisplayed();
+	    }
+	 
+	 public void clickSearchField() {
+		    searchTextField.click();
+		}
+	 
+	 public boolean verifyRecentSearch(String keyword) {
 
+		    for (WebElement recentSearch : recentSearches) {
+
+		        if (recentSearch.getText().trim().contains(keyword)) {
+		            return true;
+		        }
+		    }
+
+		    return false;
+		}
+
+	
 }
+
