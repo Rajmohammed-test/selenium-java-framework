@@ -31,8 +31,6 @@ public class CartPage extends BasePage {
     @FindBy(xpath = "//span[@class='a-truncate-cut']")
     private WebElement productLink;
 
-    //span[@class='a-icon a-icon-small-trash']/..
-
     @FindBy(xpath = "//span[@class='a-icon a-icon-small-trash']/..")
     private WebElement deleteButton;
 
