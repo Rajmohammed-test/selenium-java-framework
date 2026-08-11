@@ -619,3 +619,91 @@ Session ID: a9de0cbdb0bbd1554fef5ec2e5407b70
 2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@31e2232f: 14 ms
 2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2f9a4401: 17 ms
 2026-08-10 15:56:07 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@22c75c01: 0 ms
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 26 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 16 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 16:25:42 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 16:25:42 INFO  Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse--510479816\testng-customsuite.xml
+
+2026-08-10 16:25:42 INFO  BaseTest - =========================================================
+2026-08-10 16:25:42 INFO  PropertyUtils - Loaded base configuration from [D:\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 16:25:42 INFO  PropertyUtils - Applied environment overrides for [qa] from [D:\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 16:25:42 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 16:25:42 INFO  BaseTest - =========================================================
+2026-08-10 16:25:42 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 16 ms.
+2026-08-10 16:25:42 INFO  BaseTest - ---- Starting test [verifyAddToCartFromCategory] on thread [1] ----
+2026-08-10 16:25:42 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 16:25:43 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 16:25:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 16:25:46 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 16:25:46 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 16:26:30 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 16:26:30 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 16:26:30 INFO  BaseTest - ---- Starting test [verifyNavigationToBestSellersPage] on thread [1] ----
+2026-08-10 16:26:30 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 16:26:30 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 16:26:30 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 16:26:32 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 16:26:32 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 16:26:38 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 16:26:38 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 16:26:38 INFO  BaseTest - ---- Starting test [verifyNavigationToCustomerServicePage] on thread [1] ----
+2026-08-10 16:26:38 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 16:26:38 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 16:26:38 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 16:26:39 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 16:26:39 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 16:26:45 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 16:26:45 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 16:26:45 INFO  BaseTest - ---- Starting test [verifyPrimeVideoSignInPage] on thread [1] ----
+2026-08-10 16:26:45 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 16:26:45 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 16:26:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 16:26:46 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 16:26:46 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 16:27:23 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 16:27:23 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 16:27:23 INFO  BaseTest - ---- Starting test [verifySmartWatchPageFromMobileCategory] on thread [1] ----
+2026-08-10 16:27:23 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 16:27:23 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 16:27:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 16:27:25 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 16:27:25 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 16:27:49 INFO  DriverManager - WebDriver session quit successfully on thread [1]
+2026-08-10 16:27:49 INFO  BaseTest - ---- Finished test on thread [1], WebDriver session closed ----
+2026-08-10 16:27:49 INFO  BaseTest - =========================================================
+2026-08-10 16:27:49 INFO  BaseTest -  TEST SUITE EXECUTION FINISHED
+2026-08-10 16:27:49 INFO  BaseTest - =========================================================
+2026-08-10 16:27:50 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2b53840a: 113 ms
+2026-08-10 16:27:50 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2213639b: 24 ms
+2026-08-10 16:27:50 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3249e278: 28 ms
+2026-08-10 16:27:50 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1b3ab4f9: 15 ms
+2026-08-10 16:27:50 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@23c767e6: 17 ms
+2026-08-10 16:27:50 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@feb098f: 0 ms

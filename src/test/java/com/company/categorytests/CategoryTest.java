@@ -16,7 +16,7 @@ public class CategoryTest extends BaseTest {
 
 	}
 
-	@Test(description = "CA002_Verify a user can navigate to Customer Service page from Category navigation", groups = "Smoke")
+	@Test(description = "CA002_Verify a user can navigate to Customer Service page from Category navigation", groups = "End-to-End")
 	public void verifyNavigationToCustomerServicePage() {
 
 		CategoryPage categoryPage = new CategoryPage();

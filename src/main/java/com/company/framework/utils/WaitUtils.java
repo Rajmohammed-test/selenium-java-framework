@@ -123,17 +123,7 @@ public final class WaitUtils {
 
     // ===================== Fluent wait =====================
 
-    /**
-     * General-purpose fluent wait for conditions not covered by the convenience
-     * methods above (e.g. waiting on a custom {@link Function} against the driver,
-     * polling a JS-rendered value, or waiting past transient
-     * {@link StaleElementReferenceException}s during a DOM re-render).
-     *
-     * @param condition       function evaluated against the WebDriver until it returns a non-null,
-     *                        non-false result
-     * @param timeoutSeconds  total time to wait before giving up
-     * @param pollingMillis   interval between condition evaluations
-     */
+  
     public static <T> T fluentWait(Function<WebDriver, T> condition, long timeoutSeconds, long pollingMillis) {
         Wait<WebDriver> wait = new FluentWait<>(DriverManager.getDriver())
                 .withTimeout(Duration.ofSeconds(timeoutSeconds))
@@ -149,7 +139,6 @@ public final class WaitUtils {
         }
     }
 
-    /** Fluent wait overload using the framework's configured explicit wait and default polling interval. */
     public static <T> T fluentWait(Function<WebDriver, T> condition) {
         return fluentWait(condition,
                 PropertyUtils.getExplicitWait(),
