@@ -1,6 +1,8 @@
 package com.company.framework.pages;
 import com.company.framework.base.BasePage;
 import com.company.framework.utils.WaitUtils;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -31,8 +33,6 @@ public class CartPage extends BasePage {
     @FindBy(xpath = "//span[@class='a-truncate-cut']")
     private WebElement productLink;
 
-    //span[@class='a-icon a-icon-small-trash']/..
-
     @FindBy(xpath = "//span[@class='a-icon a-icon-small-trash']/..")
     private WebElement deleteButton;
 
@@ -41,6 +41,9 @@ public class CartPage extends BasePage {
 
     @FindBy(xpath = "//span[@id='sc-subtotal-label-activecart']")
     private WebElement subtotalLabel;
+
+    @FindBy(xpath = "//button[normalize-space()='Continue shopping']")
+    private WebElement continueShoppingButton;
 
 
     public CartPage() {
@@ -93,7 +96,26 @@ public class CartPage extends BasePage {
         return getText(subtotalLabel);
     }
 
+    public void refreshCartPage() {
+        refreshPage();
+    }
 
+    public void clickContinueShoppingIfPresent() {
+        try {
+            if (continueShoppingButton.isDisplayed()
+                    && continueShoppingButton.isEnabled()) {
+
+                continueShoppingButton.click();
+                log.debug("Clicked Continue shopping button");
+
+            } else {
+                log.debug("Continue shopping button is not visible");
+            }
+
+        } catch (NoSuchElementException | StaleElementReferenceException e) {
+            log.debug("Continue shopping button is not present");
+        }
+    }
 
     public boolean isShoppingCartDisplayed() {
         return isDisplayed(shoppingCart);

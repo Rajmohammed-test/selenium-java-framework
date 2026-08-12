@@ -1,4 +1,4 @@
-package com.company.categorytests;
+package com.company.tests.categorytests;
 
 import com.company.framework.base.BaseTest;
 import com.company.framework.pages.CategoryPage;

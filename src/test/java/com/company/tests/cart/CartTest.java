@@ -15,6 +15,7 @@ public class CartTest extends BaseTest {
         log.info("Starting test: addProductToCart");
         String item = TestDataUtils.getData("cartdata", "item");
         CartPage cartPage = new CartPage();
+        cartPage.clickContinueShoppingIfPresent();
         cartPage.enterProductInSearchBox(item);
         cartPage.clickSearchSubmitButton();
         cartPage.clickAddToCart();
@@ -27,6 +28,7 @@ public class CartTest extends BaseTest {
         log.info("Starting test: VerifyAddedProductInCart");
         CartPage cartPage = new CartPage();
         String product = TestDataUtils.getData("cartdata", "product");
+        cartPage.clickContinueShoppingIfPresent();
         cartPage.enterProductInSearchBox(product);
         cartPage.clickSearchSubmitButton();
         cartPage.clickAddToCart();
@@ -45,6 +47,7 @@ public class CartTest extends BaseTest {
         log.info("Starting test: VerifyRemovalOfProductFromCart");
         CartPage cartPage = new CartPage();
         String product = TestDataUtils.getData("cartdata", "product");
+        cartPage.clickContinueShoppingIfPresent();
         cartPage.enterProductInSearchBox(product);
         cartPage.clickSearchSubmitButton();
         cartPage.clickAddToCart();
@@ -59,7 +62,8 @@ public class CartTest extends BaseTest {
     public void VerifyIncrementOfProductQuantity() {
         log.info("Starting test: VerifyIncrementOfProductQuantity");
         CartPage cartPage = new CartPage();
-        String item = TestDataUtils.getData("cartdata", "item");
+        String item = TestDataUtils.getData("cartdata", "product");
+        cartPage.clickContinueShoppingIfPresent();
         cartPage.enterProductInSearchBox(item);
         cartPage.clickSearchSubmitButton();
         cartPage.clickAddToCartOfProduct();
@@ -68,5 +72,58 @@ public class CartTest extends BaseTest {
         cartPage.incrementProductQuantity();
         String subtotalText = cartPage.getSubtotalLabelText();
         Assert.assertTrue(subtotalText.contains("2"), "Subtotal does not reflect the incremented quantity. Actual subtotal text: " + subtotalText);
+    }
+
+    @Test(description = "Verify User can add Multiple item to the cart")
+    public void VerifyMultipleCartItemsCanAdded() {
+        log.info("Starting test: VerifyMultipleCartItemsCanAdded");
+        CartPage cartPage = new CartPage();
+        cartPage.clickContinueShoppingIfPresent();
+        String item = TestDataUtils.getData("cartdata", "item");
+        cartPage.enterProductInSearchBox(item);
+        cartPage.clickSearchSubmitButton();
+        cartPage.clickAddToCartOfProduct();
+        cartPage.clickAddToCart();
+        cartPage.clickCartIcon();
+        Assert.assertTrue(cartPage.isShoppingCartDisplayed());
+        String subtotalText = cartPage.getSubtotalLabelText();
+        Assert.assertTrue(subtotalText.contains("2"), "Subtotal does not reflect the Multiple product added: " + subtotalText);
+    }
+
+    @Test(description = "Verify deleting an item from cart does not remove other items")
+    public void VerifyDeletingAnItemFromCartDoesNotRemoveOtherItems() {
+        log.info("Starting test: VerifyDeletingAnItemFromCartDoesNotRemoveOtherItems");
+        CartPage cartPage = new CartPage();
+        cartPage.clickContinueShoppingIfPresent();
+        String product = TestDataUtils.getData("cartdata", "product");
+        cartPage.enterProductInSearchBox(product);
+        cartPage.clickSearchSubmitButton();
+        cartPage.clickAddToCart();
+        cartPage.clickAddToCartOfProduct();
+        cartPage.clickCartIcon();
+        Assert.assertTrue(cartPage.isShoppingCartDisplayed());
+        cartPage.removeProductFromCart();
+        String subtotalText = cartPage.getSubtotalLabelText();
+        Assert.assertTrue(subtotalText.contains("1"), "Subtotal does not reflected the deleted item count: " + subtotalText);
+    }
+
+    @Test(description = "Verify Refresh of cart page does not affect Cart item")
+    public void VerifyRefreshCartPageDoesNotAffectCartItem() {
+        log.info("Starting test: VerifyRefreshCartPageDoesNotAffectCartItem");
+        CartPage cartPage = new CartPage();
+        cartPage.clickContinueShoppingIfPresent();
+        String product = TestDataUtils.getData("cartdata", "product");
+        cartPage.enterProductInSearchBox(product);
+        cartPage.clickSearchSubmitButton();
+        cartPage.clickAddToCartOfProduct();
+        cartPage.clickCartIcon();
+        Assert.assertTrue(cartPage.isShoppingCartDisplayed());
+        cartPage.refreshCartPage();
+        String actualText=cartPage.getProductLinkText();
+        Assert.assertTrue(
+                actualText.toLowerCase().contains(product.toLowerCase()),
+                "Expected text was not found. Actual text: " + actualText
+        );
+
     }
 }
