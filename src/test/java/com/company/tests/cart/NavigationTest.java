@@ -8,14 +8,13 @@ import org.testng.annotations.Test;
 
 public class NavigationTest extends BaseTest {
 
-    @Test(description = "Verify a user can navigate to mens clothing page from home page")
+    @Test(groups={"smoke"},description = "Verify a user can navigate to mens clothing page from home page")
     public void validLogin() {
 
         HomePage homepage = new HomePage();
         homepage.clickAll();
         homepage.clickMen();
         MensClothingPage mensClothingPage = homepage.clickShirt();
-
         Assert.assertTrue(mensClothingPage.isMensClothigDisplayed());
     }
 
