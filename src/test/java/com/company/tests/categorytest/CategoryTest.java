@@ -1,7 +1,9 @@
-package com.company.categorytests;
+package com.company.tests.categorytest;
 
 import com.company.framework.base.BaseTest;
 import com.company.framework.pages.CategoryPage;
+
+import org.apache.poi.ddf.EscherColorRef.SysIndexProcedure;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -56,6 +58,38 @@ public class CategoryTest extends BaseTest {
 		Assert.assertTrue(categoryPage.isSmartWatchesLinkDisplayed(), "Smartwatches link should be displayed.");
 		Assert.assertTrue(categoryPage.clickAndVerfiySmartWatchesNavigation(),
 				"Smartwatches text should be displayed.");
+
+	}
+
+	@Test(description = "CA006_Verify the user can add a mobile to the cart from Mobiles Category", groups = "Smoke")
+	public void addMobileToCartFromMobilesCategory() {
+
+		CategoryPage categoryPage = new CategoryPage();
+		categoryPage.clickOnMobilesLink();
+		categoryPage.clickOnSmarphonesLink();
+		categoryPage.selectFirstProductinPLP();
+		categoryPage.addProductToTheCart();
+		Assert.assertTrue(categoryPage.isAddedToCartTextDisplayed(), "Added to cart text should be displayed");
+		String subtotalPrice = categoryPage.getSubTotalPrice();
+		System.out.println("Subtotal price : " + subtotalPrice);
+		categoryPage.navigateToCartPage();
+		Assert.assertTrue(categoryPage.isShoppingCartTextDisplayed(), "Shopping Cart text should be displayed");
+
+	}
+	
+	@Test(description = "CA007_Verify the user can add a smart watch to the cart from Mobiles Category", groups = "Smoke")
+	public void addWatchToCartFromMobilesCategory() {
+
+		CategoryPage categoryPage = new CategoryPage();
+		categoryPage.clickOnMobilesLink();
+		categoryPage.clickAndVerfiySmartWatchesNavigation();
+		categoryPage.selectFirstProductinPLP();
+		categoryPage.addProductToTheCart();
+		Assert.assertTrue(categoryPage.isAddedToCartTextDisplayed(), "Added to cart text should be displayed");
+		String subtotalPrice = categoryPage.getSubTotalPrice();
+		System.out.println("Subtotal price : " + subtotalPrice);
+		categoryPage.navigateToCartPage();
+		Assert.assertTrue(categoryPage.isShoppingCartTextDisplayed(), "Shopping Cart text should be displayed");
 
 	}
 }
