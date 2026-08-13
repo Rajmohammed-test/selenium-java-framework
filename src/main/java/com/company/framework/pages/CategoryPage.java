@@ -54,6 +54,31 @@ public class CategoryPage extends BasePage {
 	@FindBy(xpath = "//b[text()='Mobile Smart Watch']")
 	private WebElement smartWatchesText;
 
+	@FindBy(xpath = "//span[text()='Smartphones & Basic Mobiles']/..")
+	private WebElement smartphonesLink;
+
+	@FindBy(xpath = "//b[text()='Smartphones & Basic Mobiles']")
+	private WebElement smartphonesHeaderText;
+
+	@FindBy(xpath = "(//div[@data-cy='title-recipe']/a)[1]")
+	private WebElement firstSmartphonePLP;
+
+	@FindBy(id = "sw-subtotal")
+	private WebElement subTotalText;
+
+	@FindBy(xpath = "//div[@id='sw-atc-actions-buy-box-sign-in']//a[contains(text(),'Go to Cart')]")
+	private WebElement goToCartButton;
+
+	@FindBy(xpath = "//h2[contains(text(),'Shopping Cart')]")
+	private WebElement shoppingCartHeaderText;
+
+	@FindBy(xpath = "(//input[@title='Add to Shopping Cart'])[2]")
+	private WebElement addCartButton;
+
+	@FindBy(xpath = "(//div[@data-cy='title-recipe']/a/h2/span)[1]")
+
+	private WebElement firstProductName;
+
 	public void clickOnBestSellersLink() {
 
 		click(bestSellersLink);
@@ -147,4 +172,40 @@ public class CategoryPage extends BasePage {
 		return isDisplayed(smartWatchesText);
 
 	}
+
+	public void clickOnSmarphonesLink() {
+
+		click(smartphonesLink);
+
+	}
+
+	public boolean isSmartphoneHeaderTextDisplayed() {
+
+		return isDisplayed(smartphonesHeaderText);
+
+	}
+
+	public void selectFirstProductinPLP() {
+
+		click(firstSmartphonePLP);
+	}
+
+	public void addProductToTheCart() {
+
+		click(addCartButton);
+	}
+
+	public void navigateToCartPage() {
+
+		click(goToCartButton);
+	}
+
+	public boolean isShoppingCartTextDisplayed() {
+		return isDisplayed(shoppingCartHeaderText);
+	}
+
+	public String getSubTotalPrice() {
+		return subTotalText.getAttribute("data-price");
+	}
+
 }
