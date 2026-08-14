@@ -156,4 +156,10 @@ public class TestListener implements ITestListener {
         }
         return sb.toString();
     }
+
+	@Override
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
 }
